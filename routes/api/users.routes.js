@@ -2,7 +2,7 @@ import express from "express";
 const router = express.Router();
 import _ from "lodash";
 import bcrypt from "bcrypt";
-import UserModel from "../../models/User.js";
+import UserModel from "../../models/user.model.js";
 
 router.get("/", async (req, res) => {
   try {

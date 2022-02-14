@@ -10,7 +10,7 @@ import {
   downloadFile,
   getDownloadUrl,
 } from "../../middlewares/s3.js";
-import UploadModel from "../../models/UploadModel.js";
+import UploadModel from "../../models/upload.model.js";
 const upload = multer({ dest: "uploads/" });
 const unLinkFile = promisify(fs.unlink);
 

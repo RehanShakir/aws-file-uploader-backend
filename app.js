@@ -6,8 +6,8 @@ import logger from "morgan";
 
 import "./Database/connection.js";
 
-import fileRouter from "./routes/api/file.js";
-import userRouter from "./routes/api/users.js";
+import fileRouter from "./routes/api/file.routes.js";
+import userRouter from "./routes/api/users.routes.js";
 
 var app = express();
 
